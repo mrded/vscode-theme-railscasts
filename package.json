@@ -1,17 +1,30 @@
 {
-	"name": "railscasts",
-	"version": "0.0.1",
-	"engines": {
-		"vscode": ">=0.9.0-pre.1"
-	},
-	"publisher": "none",
-	"contributes": {
-		"themes": [
-			{
-				"label": "RailsCasts",
-				"uiTheme": "vs-dark",
-				"path": "./themes/RailsCastsColorScheme.tmTheme"
-			}
-		]
-	}
+  "name": "railscasts",
+  "displayName": "RailsCasts",
+  "description": "Dark UI theme for Visual Studio Code based on Ryan Bates (@rbates) RailsCasts TextMate theme.",
+  "version": "0.0.2",
+  "categories": ["Themes"],
+  "icon": "icon.png",
+  "engines": {
+    "vscode": ">=0.9.0-pre.1"
+  },
+  "publisher": "mrded",
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "RailsCasts",
+          "uiTheme": "vs-dark",
+          "path": "./themes/RailsCastsColorScheme.tmTheme"
+      }
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/mrded/vscode-theme-railscasts/issues"
+  },
+  "homepage": "https://github.com/mrded/vscode-theme-railscasts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrded/vscode-theme-railscasts.git"
+  }
 }
