@@ -2,8 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>author</key>
+  <string>Dmitry Demenchuk (http:&#x2f;&#x2f;demenchuk.me)</string>
   <key>name</key>
   <string>RailsCasts</string>
+  <key>semanticClass</key>
+  <string>theme.dark.railscasts</string>
   <key>settings</key>
   <array>
     <dict>
@@ -31,7 +35,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>Comment</string>
+      <string>Comments</string>
       <key>scope</key>
       <string>comment</string>
       <key>settings</key>
@@ -44,7 +48,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>Keyword</string>
+      <string>Keywords</string>
       <key>scope</key>
       <string>keyword, storage</string>
       <key>settings</key>
@@ -81,7 +85,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>Number</string>
+      <string>Numbers</string>
       <key>scope</key>
       <string>constant.numeric</string>
       <key>settings</key>
@@ -94,9 +98,42 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>Variable</string>
+      <string>Integers</string>
       <key>scope</key>
-      <string>variable.language, variable.other</string>
+      <string>constant.numeric</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#A5C261</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Floats</string>
+      <key>scope</key>
+      <string>none</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#A5C261</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Boolean</string>
+      <key>scope</key>
+      <string>none</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#6D9CBE</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Variables</string>
+      <key>scope</key>
+      <string>variable</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -118,7 +155,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>Constant</string>
+      <string>Constants</string>
       <key>scope</key>
       <string>constant</string>
       <key>settings</key>
@@ -155,7 +192,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>String</string>
+      <string>Strings</string>
       <key>scope</key>
       <string>string</string>
       <key>settings</key>
