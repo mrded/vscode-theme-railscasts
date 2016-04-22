@@ -242,13 +242,24 @@
       <key>name</key>
       <string>Markup tag</string>
       <key>scope</key>
-      <string>meta.tag, declaration.tag, entity.name.tag, entity.other.attribute-name</string>
+      <string>meta.tag, declaration.tag, entity.other.attribute-name</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
         <string>#E8BF6A</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Tags</string>
+      <key>scope</key>
+      <string>entity.name.tag</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffffff</string>
       </dict>
     </dict>
     <dict>
